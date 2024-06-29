@@ -10,7 +10,7 @@ jobs:
               run: echo "World"
 
     job1:
-        runs-on: ubunut-latest
+        runs-on: ubuntu-latest
         steps:
             - name: "job 1"
               run: echo "Hello "
